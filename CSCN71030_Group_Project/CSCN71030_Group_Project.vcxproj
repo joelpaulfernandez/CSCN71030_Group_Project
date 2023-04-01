@@ -127,8 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="helloworld.c" />
+    <ClCompile Include="displayDoctorsappointmentHistory.c" />
+    <ClCompile Include="displayDoctorsdiagnostics.c" />
+    <ClCompile Include="exitAppointmentmanager.c" />
     <ClCompile Include="Source.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="appointmentManager.h" />
+    <ClInclude Include="displayDoctorsappointmentHistory.h" />
+    <ClInclude Include="displayDoctorsdiagnostics.h" />
+    <ClInclude Include="exitAppointmentmanager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
