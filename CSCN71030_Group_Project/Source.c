@@ -10,7 +10,7 @@
 #include <stdbool.h>
 
 #include "appointmentManager.h"
-//#include "printAppointmentmenu.h"
+#include "printAppointmentmenu.h"
 //#include "addAppointment.h"
 //#include "displaySingleappointment.h"
 #include "exitAppointmentmanager.h"
