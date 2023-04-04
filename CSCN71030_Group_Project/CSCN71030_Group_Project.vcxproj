@@ -130,6 +130,10 @@
     <ClCompile Include="helloworld.c" />
     <ClCompile Include="Source.c" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="addappointment.h" />
+    <ClInclude Include="deleteappointment.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
