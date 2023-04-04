@@ -21,5 +21,13 @@
     <ClCompile Include="helloworld.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="copyfile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="copyfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
