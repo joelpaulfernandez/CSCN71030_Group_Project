@@ -18,15 +18,30 @@
     <ClCompile Include="Source.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="helloworld.c">
+    <ClCompile Include="deleteAppointment.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="displaySingleappointment.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="updateAppointment.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tbs\Project1\addAppointment.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="addappointment.h">
+    <ClInclude Include="addAppointment.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="deleteappointment.h">
+    <ClInclude Include="deleteAppointment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="displaysingleappoinment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="updateAppointment.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
