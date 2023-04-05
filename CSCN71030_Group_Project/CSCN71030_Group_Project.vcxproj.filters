@@ -18,9 +18,29 @@
     <ClCompile Include="Source.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="helloworld.c">
+    <ClCompile Include="displayDoctorsappointmentHistory.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="displayDoctorsdiagnostics.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exitAppointmentmanager.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="appointmentManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="displayDoctorsappointmentHistory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="displayDoctorsdiagnostics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="exitAppointmentmanager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="addappointment.h">
