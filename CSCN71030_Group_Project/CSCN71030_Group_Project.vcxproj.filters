@@ -42,4 +42,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="addappointment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="deleteappointment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
