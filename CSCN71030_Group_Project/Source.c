@@ -1,3 +1,8 @@
+//Joel Paul Fernandez
+//Michael Olanipekun
+//Brian Egona
+//Hospital database group project
+
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
