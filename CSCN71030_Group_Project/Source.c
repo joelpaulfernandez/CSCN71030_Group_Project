@@ -1,8 +1,3 @@
-//Joel Paul Fernandez
-//Michael Olanipekun
-//Brian Egona
-//Hospital database group project
-
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
@@ -11,17 +6,21 @@
 
 #include "appointmentManager.h"
 #include "printAppointmentmenu.h"
-//#include "addAppointment.h"
-//#include "displaySingleappointment.h"
+#include "addAppointment.h"
+#include "displaySingleappointment.h"
 #include "exitAppointmentmanager.h"
-//#include "deleteappointment.h"
-//#include "updateappointment.h"
-
+#include "deleteappointment.h"
+#include "updateappointment.h"
+#include "Searchforanappointment.h"
+#include "displayAllappointments.h"
 #include "displayDoctorsappointmentHistory.h"
 #include "displayDoctorsdiagnostics.h"
+#include "copyFile.h"
 
+//REQ-SYS-001 – Our general project has 4 independent modules 
 
-int main(int argc, char* argv[]) {
+int main(int argc, char* argv[])    //REQ-SYS-020 – The main was written as int main(int argc, char *argv) 
+{
 
     APPOINTMENT appointments[30];
 
@@ -44,7 +43,7 @@ int main(int argc, char* argv[]) {
     printAppointmentmenu();
 
     do {
-
+       
 
         printf("Enter an option for the above list: ", option);
         scanf_s("%d", &option);
@@ -58,24 +57,26 @@ int main(int argc, char* argv[]) {
             switch (option) {
             case 1:
                 // add new appointment
-                //addAppointment(appointments);
+                addAppointment(appointments);
                 break;
             case 2:
-                //deleteAppointment(appointments);
+                deleteAppointment(appointments);
                 // delete existing appointment
                 break;
             case 3:
-                //updateAppointment(appointments);
+                updateAppointment(appointments);
                 // update existing appointment
                 break;
             case 4:
                 // display single appointment
+                displaySingleappointment(appointments);
                 break;
             case 5:
                 // display all appointments
+                displayAllappointments(appointments);
                 break;
             case 6:
-                // display doctor�s diagnostic report
+                // display doctor’s diagnostic report
                 displayDoctorsdiagnostics(appointments);
                 break;
             case 7:
@@ -84,9 +85,11 @@ int main(int argc, char* argv[]) {
                 break;
             case 8:
                 // search for an appointment
+                searchAppointment(appointments);
                 break;
             case 9:
                 // exit program
+                copyFile(); //copyFile is called just before the progrm is exited
                 exitAppointmentmanager();
                 break;
             default:
@@ -96,11 +99,6 @@ int main(int argc, char* argv[]) {
             printAppointmentmenu();
         }
     } while (loopcondition);
-
     return 0;
 }
-
-
-
-
 
