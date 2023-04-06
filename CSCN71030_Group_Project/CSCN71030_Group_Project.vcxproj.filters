@@ -36,6 +36,18 @@
     <ClCompile Include="searchAppointment.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="addAppointment.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="deleteAppointment.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="updateAppointment.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="displaySingleappointment.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="appointmentManager.h">
@@ -57,6 +69,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="searchAppointment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="addAppointment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="deleteAppointment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="updateAppointment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="displaySingleappointment.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
