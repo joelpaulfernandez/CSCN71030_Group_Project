@@ -20,7 +20,7 @@
 #include "displayAllappointments.h"
 #include "displayDoctorsappointmentHistory.h"
 #include "displayDoctorsdiagnostics.h"
-#include "copyFile.h"
+//#include "copyFile.h"
 
 //REQ-SYS-001 – Our general project has 4 independent modules 
 
